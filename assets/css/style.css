@@ -3,25 +3,22 @@ table{ border-radius: 3%;
     text-align: center;
     border: 1px solid #333;
 }
-h2{text-align: center
-    ;}
-
-    #contact{text-align: center;}
+h2{text-align: center;}
+#contact{text-align: center;}
 body {
     background-color: rgb(103, 81, 81);
 }
 
 h1 {
     color: rgb(230, 255, 39);
-    font-family: 'Cardo', serif;
-}
+    font-family: 'Cardo', serif;}
 
 p {
     font-family: 'Cardo', serif;
 font-family: 'Nunito Sans', sans-serif;
 }
 
-body {
+.carrousel {
     height: 600px;
     margin: 0;
     display: grid;
@@ -125,3 +122,23 @@ body {
   p{
     color: #d9ff4e;
   }
+
+  nav  a{ 
+    float: left; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #000000; /* couleur de fond */
+    
+    line-height: 33px; /* interligne */
+    padding: 0 149px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 13px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    
+    }
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #2ec147; /* couleur de fond */
+    }
+    #dessin {
+      text-align: center;
+    }
